@@ -11,6 +11,7 @@ body{
     height: 150vh;
     
 }
+
 .clearfix{clear: both;}
 .resume-box{
     width: 800px;
@@ -36,7 +37,7 @@ body{
 .name{
     letter-spacing: 5px;
     font-family: arial;
-    color: var(--font-color);
+    color: teal;
     line-height: 39px;
     margin: 20px 0px 0px 20px;
     float: left;
@@ -45,7 +46,7 @@ body{
 .contat_p{color: var(--font-color);}
 .fontfa{
     padding: 8px;
-    background: var(--font-color);
+    background: teal;
     color: white;
     border-radius: 15px;
     width: 14px;
@@ -55,7 +56,7 @@ body{
     margin: 3px 0px 0px 20px;
     float: left;
     text-transform: uppercase;
-    color: var(--font-color);
+    color: teal;
     letter-spacing: 2px;
 }
 .profile{
@@ -68,7 +69,7 @@ body{
 }
 .content{padding: 0px;}
 h1{
-    color: var(--font-color);
+    color: teal;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -103,7 +104,7 @@ ul li:before{
     display: inline-block;
     width: 10px;
     height: 10px;
-    background: var(--second-color);
+    background: teal;
     position: absolute;
     left: -1px;
     top: 5px;
@@ -155,6 +156,9 @@ ul li:before{
 }
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
 
+
+
+navbar
 *{
   margin: 0;
   padding: 0;
@@ -183,7 +187,7 @@ body{
 .wrapper .top_navbar .hamburger{
   width: 70px;
   height: 100%;
-  background: #2e4ead;
+  background: teal;
   padding: 15px 17px;
   border-top-left-radius: 20px;
   cursor: pointer;
@@ -192,7 +196,7 @@ body{
 .wrapper .top_navbar .hamburger div{
   width: 35px;
   height: 4px;
-  background: #92a6e2;
+  background: rgb(0, 191, 191);
   margin: 5px 0;
   border-radius: 5px;
 }
@@ -210,7 +214,7 @@ body{
 }
 
 .wrapper .top_navbar .top_menu .logo{
-  color: #2e4ead;
+  color: teal;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -227,13 +231,13 @@ body{
   height: 35px;
   line-height: 35px;
   text-align: center;
-  border: 1px solid #2e4ead;
+  border: 1px solid teal;
   border-radius: 50%;
-  color: #2e4ead;
+  color: teal;
 }
 
 .wrapper .top_navbar .top_menu ul li a:hover{
-  background: #4360b5;
+  background: rgb(0, 191, 191);;
   color: #fff;
 }
 
@@ -245,7 +249,7 @@ body{
   position: fixed;
   top: 70px;
   left: 10px;
-  background: #2e4ead;
+  background: teal;
   width: 200px;
   height: calc(100% - 80px);
   border-bottom-left-radius: 20px;
@@ -258,7 +262,7 @@ body{
     color: #fff;
     position: relative;
     margin-bottom: 1px;
-    color: #92a6e2;
+    color: rgb(0, 191, 191);;
     white-space: nowrap;
 }
 
@@ -269,7 +273,7 @@ body{
   left: 0;
   width: 3px;
   height: 100%;
-  background: #92a6e2;
+  background: rgb(1, 108, 108);
   display: none;
 }
 
@@ -284,7 +288,7 @@ body{
 
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
-  background: #4360b5;
+  background: rgb(24, 176, 176);
   color: #fff;
 }
 
