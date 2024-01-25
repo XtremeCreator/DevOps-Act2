@@ -1,5 +1,6 @@
 #navbar {
-  background-color: #accadb; /* Black background color */
+  
+  background-color: #037c6e; /* Black background color */
   position: fixed; /* Make it stick/fixed */
   top: 0; /* Stay on top */
   width: 100%; /* Full width */
@@ -10,7 +11,7 @@
 #navbar a {
   float: left;
   display: block;
-  color: white;
+  color: #b3e0dc;
   text-align: center;
   padding: 25px;
   font-weight: 900;
@@ -19,8 +20,8 @@
 }
 
 #navbar a:hover {
-  background-color: #bdd5e3;
-  color: #74a7c3;
+  background-color: #81cdc6;
+  color: #025043;
 }
 
 /* Right-aligned section inside the top navigation */
@@ -35,13 +36,13 @@
 
  /* The sidepanel menu */
 .sidepanel {
-    height: 350px; /* Specify a height */
+    height: 220px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
     right: 0;
-    background-color:  #accadb; /* Black*/
+    background-color:  #048c7f; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
@@ -59,7 +60,7 @@
   
   /* When you mouse over the navigation links, change their color */
   .sidepanel a:hover {
-    color: #f1f1f1;
+    color: #025043;
   }
   
   /* Position and style the close button (top right corner) */
@@ -75,13 +76,13 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #accadb;
-    color: white;
+    background-color: #036c5f;
+    color: #b3e0dc;
     padding: 20px 30px;
     border: none;
   }
   
   .openbtn:hover {
-    background-color: #bdd5e3;
-    color: #74a7c3;
+    background-color: #81cdc6;
+    color: #025043;
   }
