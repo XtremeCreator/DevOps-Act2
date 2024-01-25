@@ -75,7 +75,7 @@ h1{
 }
 p{
     color: #025043;
-    font-weight: 300;
+    font-weight: 450;
     font-size: 14px;
 }
 ul{
@@ -142,7 +142,7 @@ ul li:before{
     font-size: 14px;
     text-transform: uppercase;
     color: #025043;
-    font-weight: 400;
+    font-weight: 900;
     margin: 5px 0px;
     margin-top: 10px;
 }
@@ -333,53 +333,4 @@ body{
 .wrapper.collapse .main_container{
   width: (100% - 70px);
   margin-left: 70px;
-}
-
-
-
-.box-outer, .resume-box, .box-1, .box-2, .content, .content-2 {
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.col-sm-6 {
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-}
-
-.profile {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Clearfix */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-    .col-sm-6 {
-        width: 100%;
-        float: none;
-    }
-
-    .content, .content-2 {
-        padding: 0 15px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .name {
-        font-size: 24px;
-    }
-
-    .head {
-        font-size: 20px;
-    }
-
-    /* Adjust other font sizes, margins, paddings as needed */
 }
